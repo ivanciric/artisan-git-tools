@@ -51,7 +51,7 @@ class TimetravelCommand extends Command {
             "git branch -m new-temp-branch {$this->remoteBranch}",
             "git branch -d --force old-temp-branch",
             "git merge -s ours origin/{$this->remoteBranch}",
-            "git push --set-upstream origin old-temp-branch",
+            "git push --set-upstream origin {$this->remoteBranch}",
             "git push",
             "git pull",
         ];
