@@ -9,7 +9,7 @@ In composer.json file add the following in the require array:
 ``` bash
   "require": {
         
-        "ivanciric/artisan-git-tools": "*"
+        "ivanciric/artisan-git-tools": "0.0.1"
   },
 ```
 
