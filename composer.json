@@ -1,0 +1,24 @@
+{
+    "name": "ivanciric/artisan-git-tools",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "Laravel Artisan Git Tools",
+    "keywords": [
+        "ArtisanGitTools"
+    ],
+    "homepage": "https://github.com/ivanciric/artisan-git-tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Ciric",
+            "email": "ivan.it.office@gmail.com",
+            "homepage": "http://yoshi.tech",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hamato\\ArtisanGitTools\\": "src"
+        }
+    }
+}
