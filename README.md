@@ -18,3 +18,16 @@ In config/app.php providers array, add the following line:
 ```
 Hamato\ArtisanGitTools\ArtisanGitToolsServiceProvider::class,
 ```
+
+## Usage
+
+```
+php artisan gittools:{command}
+```
+
+### Available commands
+
+```
+timetravel
+```
+- resets the remote branch to a specific commit hash
