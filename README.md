@@ -1,6 +1,8 @@
 # Artisan GitTools
 
-Laravel 5.* Artisan commands with helpful Git solutions 
+Laravel 5.* Artisan commands with helpful Git solutions. 
+
+Note: Still in beta, use at your own risk.
 
 ## Install
 
