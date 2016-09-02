@@ -33,3 +33,8 @@ php artisan gittools:{command}
 timetravel
 ```
 - resets the remote branch to a specific commit hash
+
+```
+oblivion
+```
+- removes folder/file from the repository but leaves it on the local fs

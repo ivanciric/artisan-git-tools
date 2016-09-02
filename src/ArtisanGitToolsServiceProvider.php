@@ -2,6 +2,7 @@
 
 namespace Hamato\ArtisanGitTools;
 
+use Hamato\ArtisanGitTools\Console\OblivionCommand;
 use Illuminate\Support\ServiceProvider;
 use Hamato\ArtisanGitTools\Console\TimetravelCommand;
 
@@ -21,6 +22,7 @@ class ArtisanGitToolsServiceProvider extends ServiceProvider
     {
         $this->commands([
             TimetravelCommand::class,
+            OblivionCommand::class,
         ]);
     }
 
