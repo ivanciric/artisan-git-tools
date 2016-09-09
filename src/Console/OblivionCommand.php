@@ -49,6 +49,8 @@ class OblivionCommand extends Command
 
         $bar = $this->output->createProgressBar(count($this->gitCommands));
 
+        exec('say --voice="Zarvox" Initiating oblivion command. Please stand by.');
+
         foreach ($this->gitCommands as $gitCommand) {
             exec($gitCommand);
 
